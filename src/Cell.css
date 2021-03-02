@@ -1,0 +1,22 @@
+.Cell {
+  box-shadow: inset 0 0 1em .2em #417a85;
+  padding: 5em;
+}
+
+.Cell-lit {
+  background-color: #6ad2e4;
+  transition: all 0.5s ease-out;
+}
+
+tr:nth-of-type(1) td:nth-of-type(1) {
+  border-top-left-radius: 2em;
+}
+tr:nth-of-type(1) td:last-of-type {
+  border-top-right-radius: 2em;
+}
+tr:last-of-type td:nth-of-type(1) {
+  border-bottom-left-radius: 2em;
+}
+tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 2em;
+}
