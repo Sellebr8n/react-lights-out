@@ -1,21 +1,7 @@
-.container {
-  
-}
-
-.Board {
+/* .Board {
   box-shadow: 0 0 6em 2em #f515b6;
   border-radius: 2em;
 }
-
-/* h1#neon-tubing {
-	padding: 6rem;
-	text-align: center;
-	color: rgba(255,200,200,0.8);
-	font-family: Neon80s, sans-serif;
-	font-size: 11rem;
-	letter-spacing: 2rem;
-	background-size: cover;
-} */
 
 .container {
   text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 8px -7px 12px rgba(206,89,55,0.51);
@@ -25,18 +11,15 @@
 	font-family: Neon80s, sans-serif;
 	font-size: 5rem;
 	letter-spacing: 2rem;
-	/* background-size: cover; */
 }
 
 .Board-btn {
-  padding: 1rem 6rem;
+	padding: 1rem 6rem;
 	text-align: center;
 	color: rgba(255,200,200,0.8);
-	/* font-family: Neon80s, sans-serif; */
 	font-size: 4rem;
-  border-radius: 1em;
-  margin: 2rem 0;
-
+	border-radius: 1em;
+	margin: 2rem 0;
 }
 
 @keyframes neonspark  {
@@ -63,7 +46,7 @@
 
 h1.container {
 	animation: neonspark 2s 3s forwards;
-	}
-	h1.container span {
-		animation: neonspark 3s 3s infinite;
-	}
+}
+h1.container span {
+	animation: neonspark 3s 3s infinite;
+} */
