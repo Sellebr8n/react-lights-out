@@ -1,25 +1,67 @@
-/* .Board {
-  box-shadow: 0 0 6em 2em #f515b6;
-  border-radius: 2em;
+@media (max-width: 375px){
+	.container{
+		font-size: 2rem;
+		letter-spacing: .5rem;
+	}
+	.Board {
+		margin: 1.5em 0;
+		box-shadow: 0 0 1.8em .3em #f515b6;
+	}
+	.Board-btn{
+		font-size: 1.5rem;
+		padding: .7rem .5rem;
+		box-shadow: 0 .1em .2em .1em #610948;
+		border-radius: .2em;
+	}
+}
+@media all and (max-width: 750px) and (min-width: 375px){
+	.container{
+		font-size: 2.5rem;
+		letter-spacing: .75rem;
+	}
+	.Board {
+		margin: 2em 0;
+		box-shadow: 0 0 2.6em .4em #f515b6;
+	}
+	.Board-btn{
+		font-size: 1.5rem;
+		padding: .7rem .5rem;
+		box-shadow: 0 .1em .2em .1em #610948;
+		border-radius: .2em;
+	}
+}
+
+@media (min-width: 750px) {
+	.container{
+		font-size: 4.5rem;
+		letter-spacing: 1.5rem;
+	}
+	.Board {
+		margin: 2em 0;
+		box-shadow: 0 0 4em 1em #f515b6;
+	}
+	.Board-btn{
+		font-size: 2rem;
+		padding: 1rem .7rem;
+		box-shadow: 0 .2em .3em .1em #610948;
+		border-radius: .2em;
+	}
 }
 
 .container {
-  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 8px -7px 12px rgba(206,89,55,0.51);
-  padding: 1rem 6rem;
+	text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 8px -7px 12px rgba(206,89,55,0.51);
 	text-align: center;
-	color: rgba(255,200,200,0.8);
+	color: #ffc8c8cc;
 	font-family: Neon80s, sans-serif;
-	font-size: 5rem;
-	letter-spacing: 2rem;
 }
-
+.Board {
+	border-radius: 2em;
+}
 .Board-btn {
-	padding: 1rem 6rem;
+	background-color: #ffc8c8cc;
+	border: none;
+	font-family: Neon80s, sans-serif;
 	text-align: center;
-	color: rgba(255,200,200,0.8);
-	font-size: 4rem;
-	border-radius: 1em;
-	margin: 2rem 0;
 }
 
 @keyframes neonspark  {
@@ -43,10 +85,9 @@
 		 0 0 90px rgba(255,0,84,0.1);
 	}
 }
-
 h1.container {
 	animation: neonspark 2s 3s forwards;
 }
 h1.container span {
 	animation: neonspark 3s 3s infinite;
-} */
+}
